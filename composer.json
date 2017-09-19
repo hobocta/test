@@ -1,6 +1,5 @@
 {
     "require": {
-        "hobocta/composer": "^1.0",
         "mongodb/mongodb": "^1.1"
     }
 }
