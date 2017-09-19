@@ -3,6 +3,7 @@ require_once 'vendor/autoload.php';
 
 $client = new \MongoDB\Client;
 
+/** @noinspection PhpUndefinedFieldInspection */
 $collection = $client->test->users;
 
 $result = $collection->insertOne(
